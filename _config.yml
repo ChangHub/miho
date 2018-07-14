@@ -15,7 +15,7 @@ header_description: 一个专注 WEB 开发的技术博客
 # Link to your logo | logo地址
 logo: images/logo.png
 # Link to your banner_img | 首页banner图地址
-banner_img: images/banner.jpg
+banner_img: images/banner.gif
 # Menu setting | 菜单设置
 #  name:                  Font Awesome icon | Font Awesome 图标
 #    title: Home          Title | 标题
@@ -101,11 +101,9 @@ reward:
   # 标题
   title: 请我吃糖~
   # 微信，关闭设为 false
-  wechat: // 
-  #images/wechat_code.jpg
+  wechat: images/wechat_code.jpg
   # 支付宝，关闭设为 false
-  alipay: // 
-  #images/alipay_code.jpg
+  alipay: images/alipay_code.jpg
 
 # Comments | 评论
 
@@ -117,7 +115,6 @@ youyan_id: false
 # disqus
 disqus: false
 
-#LeanCloud
 valine:
     enable: true
     appid: hrqbaUF8km11bv4h31Rhiyco-gzGzoHsz # your leancloud appid
