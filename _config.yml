@@ -101,9 +101,11 @@ reward:
   # 标题
   title: 请我吃糖~
   # 微信，关闭设为 false
-  wechat: false #images/wechat_code.jpg
+  wechat: // 
+  #images/wechat_code.jpg
   # 支付宝，关闭设为 false
-  alipay: false #images/alipay_code.jpg
+  alipay: // 
+  #images/alipay_code.jpg
 
 # Comments | 评论
 
@@ -114,6 +116,18 @@ changyan_appkey: false
 youyan_id: false
 # disqus
 disqus: false
+
+#LeanCloud
+valine:
+    enable: true
+    appid: hrqbaUF8km11bv4h31Rhiyco-gzGzoHsz # your leancloud appid
+    appkey: nm5to078TvS7MzkXnO78DHpI # your leancloud appkey
+    notify: false # true/false:mail notify !!!Test,Caution. https://github.com/xCss/Valine/wiki/Valine-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E8%AE%BE%E7%BD%AE
+    verify: false # true/false:verify code
+    guest_info: nick,mail,link # custom comment header
+    avatar: mm # avatar style https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
+    placeholder: ~(≧▽≦)/~来呀！快活呀！ # comment box placeholder
+    pageSize: 10 #评论分页
 
 # Analytics | 分析
 # 站长分析，输入站点id
@@ -130,6 +144,6 @@ access_counter:
   on: true
   site_uv: 总访客数：
   site_pv: 总访问量：
-
+  
 # Copyright Information | 版权信息
 copyright: 2017 ChangKe
